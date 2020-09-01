@@ -1,0 +1,204 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="gbk">
+<title> 小木虫论坛-学术科研互动平台</title>
+<meta name="keywords" content="小木虫,论坛,科研">
+<meta name="description" content="小木虫,论坛,科研">
+<meta http-equiv="Cache-Control" content="no-transform" />
+<meta http-equiv="Cache-Control" content="no-siteapp" />
+
+<link rel="shortcut icon" href="http://muchongimg.xmcimg.com/data/emuch_bbs_images/favicon.ico" type="image/x-icon" />
+<link rel="dns-prefetch" href="i.muchong.com"/>
+<link rel="dns-prefetch" href="muchongavatar.xmcimg.com"/>
+<link rel="dns-prefetch" href="muchongimg.xmcimg.com"/>
+<link rel="dns-prefetch" href="image-ali.keyan.cc"/>
+<link rel="dns-prefetch" href="yuyin.xmcimg.com"/>
+<link rel="dns-prefetch" href="yuyincdn.xmcimg.com"/>
+
+<script type="text/javascript" src="http://muchongimg.xmcimg.com/data/emuch_bbs_images/js/qing/js/jquery.js"></script>
+<script type="text/javascript">jQuery.noConflict();  var XMC_GKEY=""; var clickok_hash='0153fb2a717b0d9f49d708da43de96c2', cookiepre='', cookiedomain='', cookiepath='/',site_url="http://muchong.com/bbs/";</script>
+<script type="text/javascript" src="http://muchongimg.xmcimg.com/data/emuch_bbs_images/js/qing/js/jquery.select.js?15373250"></script>
+<link type="text/css" href="http://muchongimg.xmcimg.com/data/emuch_bbs_images/css/qing/css/global.css?1537325052" rel="stylesheet">
+<!--[if IE]>
+<script type="text/javascript" src="http://muchongimg.xmcimg.com/data/emuch_bbs_images/js/qing/js/html5shiv.min.js?15373250"></script>
+<![endif]-->
+<script language="javascript" src="http://muchongimg.xmcimg.com/data/emuch_bbs_images/js/script_ajax.js?15373250"></script>
+<script language="javascript" src="http://muchongimg.xmcimg.com/data/emuch_bbs_images/js/common.js?153732503"></script>
+<script src="http://muchongimg.xmcimg.com/data/emuch_bbs_images/js/qing/js/qing.js?15373250"></script>
+<script src="http://muchongimg.xmcimg.com/data/emuch_bbs_images/js/global.js?15373250"></script>
+<script type="text/javascript" src="http://muchongimg.xmcimg.com/data/emuch_bbs_images/js/layer/layer.js?15373250"></script>
+<base href="http://muchong.com/bbs/"/>
+</head>
+<body>
+<div id="append_parent"></div>
+<div id="ajaxwaitid"></div>
+<div id="show_forum_f" style="display:none;"></div>
+<div class="bg">
+<div class="top_Nav_Box solid">
+    <div class="wrapper_head solid">
+        <div class="xmc_fl">
+            <ul >
+            <div class="xmc_fl">
+         <img src="http://muchongimg.xmcimg.com/data/emuch_bbs_images/portal/image/portal/logo.png?20163" style="display: none;">
+                <li class="index" style="cursor: pointer"><a href="/bbs/" class="logo" style="background: transparent;"><img src="http://muchongimg.xmcimg.com/data/emuch_bbs_images/qing/images/logo_new.png"></a></li>
+                <li class="tar_Down_Nav top_Down_Nav" style="margin-left: 10px;">
+                    <dl class="" id="default_bg">
+                        <dt class="xmc_nav">版块导航<em></em></dt>
+                        <dd id="loadingnav" >
+                            <p class="xmc_lm20">正在加载中...</p>
+                        </dd>
+                    </dl>
+                </li>
+
+                                <li><a href="http://m.muchong.com/?f=bbs&w=nav" target="_blank">客户端APP下载</a></li>
+            <li><a href="http://hao.muchong.com/?f=muchong" style="" target="_blank">木虫导航</a> </li>
+                
+
+            </ul>
+        </div>
+
+        <div class="xmc_fr top_Login" >
+    <a href="/bbs/logging.php?action=login&t=1598927357">登录</a>
+    <a href="register.php" >注册</a>
+    </div>
+    
+    <div class="xmc_fr xmc_Search2">
+    <form class="xmc_fl" action="http://muchong.com/bbs/qing_search.php" >
+    <div class="xmc_fl">
+    <input name="search_type" type="hidden" value="thread" id="inputselect"/>
+    <input class="xmc_Search_Txt xmc_c9" type="text"  name="wd" value="" placeholder="请输入用户名/关键字">
+    </div>
+    <div class="xmc_fl">
+    <div id="divselect" class="divselect">
+    <cite>帖子</cite>
+    <ul class="select_x solid">
+    <li ><a href="javascript:;" selectid="thread">帖子</a></li>
+    <li ><a href="javascript:;" selectid="user">用户</a></li>
+        <li ><a href="javascript:;" selectid="188">本版</a></li>
+        </ul>
+    </div>
+    </div>
+    <div class="xmc_fl">
+    <input class="xmc_Search_Btn" type="submit" value="搜索">
+    </div>
+
+    </form>
+    </div>
+
+    </div>
+</div>
+
+
+<div style="height: 50px;"></div>
+
+
+<!-- 请置于所有广告位代码之前 -->
+<script type="text/javascript" src="http://cbjs.baidu.com/js/m.js"></script>
+
+
+<div class="wrapper">
+<div class="solid">
+<span class="breadcrumb"><a href="index.php">小木虫论坛-学术科研互动平台</a> &raquo;  消息提示</span>
+</div>
+</div>
+<div class="hr_10"></div>
+<div class="wrapper">
+<div class="user_info">
+<div class="user_reg message">
+<b>请登录论坛后才可以继续浏览</b>
+<div class="hr_10"></div>
+<div class="message_url">
+<a href="logging.php?action=login">如果您的浏览器没有自动跳转，请点击这里</a>
+</div>
+</div>
+</div>
+
+</div>
+<script type="text/javascript" reload="1">
+setTimeout("window.location.href='logging.php?action=login'", 2000);
+</script>
+<div class="hr_10"></div>
+<footer style="background: #fff;">
+<div class="footer_icp"></div>
+<iframe id="ajaxframe" name="ajaxframe" frameborder="0" scrolling="no" src="about:blank;" width="0" height="0" charset="gbk" style="height: 0px; line-height: 1px;"></iframe>
+<div style="text-align:center;margin:0 auto;margin:0 auto;">
+<a name="#bottom"></a>
+<table align="center">
+<tr>
+<td align="center" style="padding-left:20px;">
+
+<div style="line-height:1.5;">
+<a href="http://mob.muchong.com/bbs/index.php?pc=no" class="mediumtxt" rel="nofollow"><u>切换到手机版</u></a> -
+<a href="http://muchong.com/t-11622561-1" class="mediumtxt" rel="nofollow" target="_blank"><u>清除COOKIES</u></a> -
+<a href="supporter.php?view=ad" class="mediumtxt" rel="nofollow"><u>广告投放说明</u></a> -
+<a href="post.php?action=newthread&fid=321" class="mediumtxt" rel="nofollow"><u>给我们提意见</u></a> -
+<a href="http://m.muchong.com/?f=bbs&w=footer_text" target="_blank"><u>手机客户端</u></a> -
+<a href="supporter.php" target="_blank"><u>捐助小木虫</u></a> -
+<a href="http://src.100tal.com/?_f=muchong" target="_blank" rel="nofollow"><u>漏洞提交</u></a>
+<br>
+小木虫,学术科研互动社区,为中国学术科研免费提供动力<br>
+违规、侵权举报等事项，请邮件联系emuch2018@163.com 处理<br>
+广告投放与宣传请联系 <u>李想</u> QQ：<a href='http://wpa.qq.com/msgrd?v=3&uin=64901448&site=qq&menu=yes'><u>64901448</u></a>
+QQ：<a href='http://wpa.qq.com/msgrd?v=3&uin=2829862428&site=qq&menu=yes'><u>2829862428</u></a>&nbsp;&nbsp;邮箱：<u>64901448@qq.com</u><br>
+
+<div style="color:gray;">Copyright &copy; 2001-2020 MuChong.com, All Rights Reserved. 小木虫 版权所有
+</div>
+<div>
+<a href="http://www.miitbeian.gov.cn/" target="_blank" rel="nofollow">京ICP备09032638号-13</a>
+<a target="_blank" href="http://www.beian.gov.cn/portal/registerSystemInfo?recordcode=11010802022153" rel="nofollow"><img src="http://muchongimg.xmcimg.com/data/emuch_bbs_images/logo/jgwab.jpg" align="absmiddle"/>京公网安备 11010802022153号</a>
+
+</div>
+<br/>
+<table>
+<tr>
+<td style="padding-right: 15px; border-right: 1px solid #cccccc"><a target="_blank" href="http://m.muchong.com/?f=bbs&w=footer_v" rel="nofollow"><img height="100" src="http://muchongimg.xmcimg.com/data/bcs/2017/0226/1_1488123568_827.png"></a>
+</td>
+<td style="padding-left: 15px;">
+<a key="5704b2daefbfb0745c47297e" logo_size="124x47" logo_type="business"
+   href="http://www.anquan.org">
+<script src="http://static.anquan.org/static/outer/js/aq_auth.js"></script>
+</a>
+</td>
+</tr>
+</table>
+</div>
+</td>
+</tr>
+</table>
+<br></div>
+<div id="goTopBtn" style="display:none;"></div>
+<script type="text/javascript">goTopEx();</script>
+</footer>
+<script>
+
+;(function(){
+(function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
+(i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
+m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)
+})(window,document,'script','http://muchongimg.xmcimg.com/data/emuch_bbs_images/js/qing/js/analytics.js?15373250','ga');
+var f = emuch.getQueryString('f');
+if(f !== null ) {
+var w = emuch.getQueryString('w');
+ga('outside', 'event', 'web', f,w);
+}
+ga('create', 'UA-1947017-8', 'auto');
+if(typeof XMC_GKEY != "undefined" && XMC_GKEY){
+ga('set', 'title', XMC_GKEY);
+}
+ga('send', 'pageview');
+if(typeof GA_TYPE != "undefined" && typeof GA_TYPE_NAME  != "undefined" ) {
+ga('send', 'event', GA_TYPE_NAME, GA_TYPE, "0");
+}
+var _hmt = _hmt || [];
+(function() {
+var hm = document.createElement("script");
+hm.src = "https://hm.baidu.com/hm.js?2207ecfb7b2633a3bc5c4968feb58569";
+var s = document.getElementsByTagName("script")[0];
+s.parentNode.insertBefore(hm, s);
+})();
+})();
+</script>
+
+</body>
+</html>
